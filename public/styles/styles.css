@@ -1,0 +1,30 @@
+body {
+    background-color: #b25a38;
+    color: #b25a38;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+  font-size: 54px;
+}
+
+#title, #description {
+    color:#E3F7D4
+  }
+
+.text {
+    color: #E3F7D4
+}
+
+path {
+    stroke: white;
+    stroke-width: .5px;
+}
+  
+#tooltip {
+  opacity: 0;
+  position: absolute;
+  background-color: white;
+}

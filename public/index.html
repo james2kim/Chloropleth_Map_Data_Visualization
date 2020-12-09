@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chloropleth Map of US Bachelors Degrees</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        
+    </head>
+    <body>
+        <p id='title'>Chloropleth Map </p>
+        <h2 id='description'>% of Residents Over Age 25 with Bachelor's Degree or Higher</h2>
+        <svg id='legend' width='1000' height='50'>
+          <text x='150' y='35' >0%:</text>
+          <rect class='legendRect' x='200' y='0' width='50' height='50' fill='white'></rect>
+          <text x='350' y='35' >30%:</text>
+          <rect class='legendRect' x='400' y='0' width='50' height='50' fill='rgb(255, 183, 183)'></rect>
+          <text x='550' y='35' >60%:</text>
+          <rect class='legendRect' x='600' y='0' width='50' height='50' fill='rgb(255, 107, 107)'></rect>
+          <text x='750' y='35' >100%:</text>
+          <rect class='legendRect' x='800' y='0' width='50' height='50' fill='red'></rect>
+        </svg>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-geo/1.9.1/d3-geo.min.js" ></script>
+        <script src="scripts/scripts.js"></script>
+    </body>
+</html>
